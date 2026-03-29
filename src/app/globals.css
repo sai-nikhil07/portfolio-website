@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Groote';
+  src: url('/fonts/Groote-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oughter';
+  src: url('/fonts/Oughter.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-gendy: "Gendy", var(--font-inter), sans-serif;
+  --font-oughter: "Oughter", var(--font-inter), serif;
+  --font-space: var(--font-space), sans-serif;
+  --font-cinzel: var(--font-cinzel), serif;
+  --font-outfit: var(--font-outfit), sans-serif;
+  --font-groote: "Groote", var(--font-space), sans-serif;
+  --animate-marquee: marquee 20s linear infinite;
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ffffff;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  cursor: none;
+}
+
+::selection {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+a,
+button,
+[role="button"] {
+  cursor: none !important;
+}
