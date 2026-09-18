@@ -3,7 +3,7 @@
 A sleek, responsive, single-page personal portfolio built with **Next.js**, **React**, **Tailwind CSS**, and **Framer Motion**. It features a dark futuristic terminal-meets-glassmorphism aesthetic, heavy brutalist typography, and a highly-optimized fluid scroll-driven `<canvas>` animation sequence.
 
 ## Live Demo
-[View Live Site](https://portfolio-5zsevp914-sai-nikhil07s-projects.vercel.app)
+[View Live Site](https://portfolio-naikini-sai-nikhil.vercel.app/)
 
 ## Features
 - **GPU-Accelerated Scroll Sequencing:** Synchronizes high-res image sets to mouse scroll using an optimized, hardware-accelerated HTML5 `<canvas>` and `cancelAnimationFrame` limits for jitter-free performance.
